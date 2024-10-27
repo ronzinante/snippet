@@ -20,6 +20,7 @@ services:
     environment:
       - APACHE_PORT=11000
       - APACHE_IP_BINDING=127.0.0.1
+      - SKIP_DOMAIN_VALIDATION=true
 
 volumes:
   nextcloud_aio_mastercontainer:
